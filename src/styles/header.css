@@ -1,0 +1,59 @@
+/* Header.css */
+
+/* Header.css */
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fdfdfd; /* Màu nền sáng */
+  border-bottom: 1px solid #888; /* Đường gạch đen phân cách */
+  color: #2c2c2c;
+  box-shadow:0 1px 2px #888 ;
+}
+
+.logo h1 {
+  font-size: 24px;
+  color: #bdde27; /* Màu logo nổi bật */
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li a, .nav ul li Link {
+  display: block;
+  color: #000; 
+  text-decoration: none;
+  padding: 13px 20px; 
+  font-family:  Arial, sans-serif; 
+  background-color: transparent; 
+  transition: all 0.3s ease; 
+}
+
+.nav ul li a:hover, .nav ul li Link:hover {
+  background-color: #f0f0f0; 
+  color: #b5a6da; 
+  border-radius: 5px; 
+}
+.logo {
+  display: flex;
+  align-items: center; 
+}
+
+.logo img {
+  width: 50px; 
+  height: auto; 
+  object-fit: contain;
+}

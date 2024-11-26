@@ -1,0 +1,89 @@
+.storylist-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+
+.storylist-main-content {
+  display: flex;
+  gap: 20px;
+}
+
+
+.storylist-content {
+  flex: 3; 
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.storylist-item {
+  display: flex;
+  gap: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  transition: transform 0.3s ease;
+}
+
+.storylist-item:hover {
+  transform: scale(1.02); 
+}
+
+.storylist-img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+.storylist-details {
+  flex: 1;
+}
+
+.storylist-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.storylist-rank {
+  font-size: 14px;
+  color: #555;
+  margin: 5px 0;
+}
+
+.storylist-description {
+  font-size: 14px;
+  color: #666;
+}
+
+
+.storylist-sidebar {
+  flex: 1; 
+  max-width: 300px;
+}
+
+.sidebar-content {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-content h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.sidebar-content ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar-content ul li {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
